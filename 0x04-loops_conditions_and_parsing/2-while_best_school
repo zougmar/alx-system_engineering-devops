@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#display Best School 10 tome
+count=0
+
+while [ $count -lt 10 ]
+do
+ echo "Best School"
+ (( count++ ))
+done
