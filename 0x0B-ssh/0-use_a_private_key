@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# SSH connection using private key and user 'ubuntu'
+ssh -i ~/.ssh/school ubuntu@"$1"
+
